@@ -1,0 +1,110 @@
+*{   margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+   
+   }
+
+body{
+    background-color: rgb(57, 57, 77);
+}
+
+
+header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: #46947c;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    gap: 30px;
+    padding-right: 5%;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul a {
+    color: white;
+    margin: 2vw;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.7s;
+}
+
+footer{
+    background-color: rgb(27, 70, 87);
+}
+
+
+.imgContainer{
+    display: flex;
+    padding-left: 30px;
+
+}
+
+
+
+
+.opcMenu{
+    transition: 0.35s;
+    cursor: pointer;
+    background-image: url(https://cms-assets-p.c6bank.com.br/uploads/c6bank-homedoapp.png);
+    background-size: 60vw, 60vh;
+    background-position: center;
+    object-fit: cover;
+    width: 300px; 
+    height: 450px; 
+    margin: 50px; 
+    border-radius: 20px;
+}
+
+.opcMenu2{
+    transition: 0.35s;
+    cursor: pointer;
+    background-image: url(https://img.freepik.com/vetores-premium/conceito-de-saldo-de-dinheiro_169241-1949.jpg);
+    background-position: center;
+    background-size: 34vw, 34vh;
+    width: 300px; 
+    height: 450px; 
+    margin: 50px; 
+    border-radius: 20px;
+
+
+}
+
+.opcMenu3{
+    transition: 0.35s;
+    cursor: pointer;
+    background-image: url(https://files.sunoresearch.com.br/p/uploads/2021/09/extrato-banc%C3%A1rio.jpg);
+    background-position: center;
+    background-size: 60vw, 60vh;
+    width: 300px; 
+    height: 450px; 
+    margin: 50px;  
+    border-radius: 20px;
+
+
+}
+
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Container:hover > :not(:hover){
+    opacity:.4; 
+    transform: scale(0.9);
+}
+
+.fundoSection{
+    background-color: white;
+}
